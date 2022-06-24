@@ -4,7 +4,7 @@ let initialPositionY = null;
 let moving = false;
 let transform = 0;
 
-const gestureStart = (e) => {
+window.gestureStart = (e) => {
     initialPosition = e.pageX;
     initialPositionY = e.pageY;
     moving = true;
@@ -16,7 +16,7 @@ const gestureStart = (e) => {
     }
 }
 
-const gestureMove = (e) => {
+window.gestureMove = (e) => {
     if (moving) {
         const currentPosition = e.pageX;
         const currentPositionY = e.pageY;
@@ -40,7 +40,7 @@ const gestureMove = (e) => {
     }
 }
 
-const gestureStop = (e) => {
+window.gestureStop = (e) => {
     moving = false;
 }
 
