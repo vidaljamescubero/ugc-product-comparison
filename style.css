@@ -1,0 +1,138 @@
+.ugc-cate-comp-container {
+    max-width: 853.5px;
+    height: 730px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ugc-cate-comp-header-container {
+    width: 100%;
+    height: 98px;
+    background: #F0E9E2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ugc-cate-comp-header {
+    font-family: 'Crimson Text', "Crimson Text", Georgia, serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+
+.ugc-cate-comp-cards {
+    width: 100%;
+    height: 589px;
+    margin-top: 16px;
+    display: flex;
+    cursor: pointer;
+}
+
+.ugc-cate-comp-card {
+    height: 100%;
+    width: 274px;
+    margin: 0 8px;
+    touch-action: none;
+    background: #F0E9E2;
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none; 
+     -khtml-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none; 
+            user-select: none
+}
+
+.ugc-cate-comp-card-header {
+    height: 108px;
+    width: 100%;
+}
+
+.ugc-cate-comp-card-header-text {
+    font-family: 'Minion Pro', 'Minion Pro Display', 'minion-pro', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+    padding: 19px 0 8px 0;
+}
+
+.ugc-cate-comp-card-subhead-text {
+    font-family: 'Lato', Lato, "helvetica neue", helvetica, arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #000000;
+}
+
+.ugc-cate-comp-card-video {
+    width: 274px;
+    height: 274px;
+}
+
+.ugc-cate-comp-card-video img {
+    width: 274px;
+    height: 274px;
+}
+
+.ugc-cate-comp-card-body {
+    width: 100%;
+    height: 207px;
+    position: relative;
+}
+
+.ugc-cate-comp-card-list {
+    list-style: none;
+    font-family: 'Lato', Lato, "helvetica neue", helvetica, arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    color: #000000;
+    margin: 0 auto;
+    position: absolute;
+    top: 23px;
+}
+
+.ugc-cate-comp-card-cta {
+    width: 223.31px;
+    height: 43px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    position: absolute;
+    left: calc(50% - 111.655px);
+    bottom: 22px;
+}
+
+.ugc-cate-comp-card-cta a{
+    font-family: 'Lato', Lato, "helvetica neue", helvetica, arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000000;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .ugc-cate-comp-header { 
+        font-size: 22px;
+        line-height: 26px;
+        width: 185px;
+    }
+}
