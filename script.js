@@ -1,8 +1,8 @@
-const track = document.querySelector(".ugc-cate-comp-cards");
-let initialPosition = null;
-let initialPositionY = null;
-let moving = false;
-let transform = 0;
+window.track = document.querySelector(".ugc-cate-comp-cards");
+window.initialPosition = null;
+window.initialPositionY = null;
+window.moving = false;
+window.transform = 0;
 
 window.gestureStart = (e) => {
     initialPosition = e.pageX;
